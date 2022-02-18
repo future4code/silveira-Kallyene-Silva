@@ -97,3 +97,25 @@ console.log(diferenca(primeiroNumeroDoUsuario, segundoNumeroDoUsuario))
 console.log(multiplicacao(primeiroNumeroDoUsuario, segundoNumeroDoUsuario))
 console.log(divisao(primeiroNumeroDoUsuario, segundoNumeroDoUsuario))
 
+
+//------Desafios-------//
+
+//1. 
+//a.
+const primeiraArrowFunction =(numero) => console.log(numero)
+//b.
+const outraArrowFunction = (numero1, numero2) => {
+    const soma = numero1 + numero2
+    primeiraArrowFunction(soma)
+}
+
+outraArrowFunction(1,2)
+
+//2.
+function teoremaDePitagoras(cateto1, cateto2){
+    const hipotenusa = ((cateto1**2)+(cateto2**2))**0.5
+    return hipotenusa
+
+}
+
+teoremaDePitagoras(4,5)
