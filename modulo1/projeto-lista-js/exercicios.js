@@ -130,8 +130,12 @@ function checaRenovacaoRG() {
   const renovar2 = (idade >=20) && (idade <= 50) && (validadeDaCarteira >= 10)
   const renovar3 = (idade > 50) && (validadeDaCarteira >= 15)
 
+<<<<<<< HEAD
+  return renovar1 || renovar2 || renovar3
+=======
   const renovar = renovar1 && renovar2 && renovar3
   return renovar
+>>>>>>> f41fac1def24d2da70c6c8151d49b793b4e6287a
 }
 
 // EXERCÍCIO 14
